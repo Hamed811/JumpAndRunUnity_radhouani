@@ -1,6 +1,6 @@
 #Wichtig#
 Wenn du das Projekt in Unity öffnest, geh zu:
-Assets → Scenes → MainScene
+Assets > Scenes > MainScene
 Dort ist das ganze Level.
 
 Steuerung
@@ -9,5 +9,5 @@ Springen: Leertaste
 Interagieren: E
 
 
-Hinweis
+
 Beim ersten Start in Unity kann es kurz dauern (lädt alles).
