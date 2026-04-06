@@ -1,15 +1,13 @@
-# Jump and Run Game
+#Wichtig#
+Wenn du das Projekt in Unity öffnest, geh zu:
+Assets → Scenes → MainScene
+Dort ist das ganze Level.
 
-Unity 3D project
-
-#Controls
-- Move: WASD
-- Jump: Space
-- Interact: E
-- -----------------
-- Moving platforms
-- Respawn system
-- Lever interaction
+Steuerung
+Bewegen: WASD
+Springen: Leertaste
+Interagieren: E
 
 
-Could take a while to load in unity :/
+Hinweis
+Beim ersten Start in Unity kann es kurz dauern (lädt alles).
