@@ -12,6 +12,8 @@ public class MageController : MonoBehaviour
     [SerializeField] private AudioSource footstepAudioSource;
     [SerializeField] private AudioSource jumpAudioSource;
 
+    [SerializeField] private Animator animator;
+
     private CharacterController controller;
     private InputAction moveAction;
     private InputAction jumpAction;
@@ -25,6 +27,11 @@ public class MageController : MonoBehaviour
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
+
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }
     }
 
     private void Start()
@@ -65,6 +72,8 @@ public class MageController : MonoBehaviour
 
         bool isMoving = input.magnitude > 0.1f;
 
+        UpdateAnimations(isMoving);
+
         if (isMoving && isGrounded)
         {
             if (footstepAudioSource != null && !footstepAudioSource.isPlaying)
@@ -102,6 +111,17 @@ public class MageController : MonoBehaviour
 
         velocity.y += gravity * Time.fixedDeltaTime;
         controller.Move(velocity * Time.fixedDeltaTime);
+    }
+
+    private void UpdateAnimations(bool isMoving)
+    {
+        if (animator == null)
+        {
+            return;
+        }
+
+        animator.SetBool("isWalking", isMoving && isGrounded);
+        animator.SetBool("isJumping", !isGrounded);
     }
 
     private void GetPlatformVelocity()

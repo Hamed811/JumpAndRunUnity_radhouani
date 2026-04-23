@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\magecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\magecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Library\\PackageCache\\com.unity.render-pipelines.universal@7327e77c1cc2\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@7327e77c1cc2\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\enemystompzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\MageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCripts\\MageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Library\\PackageCache\\com.unity.render-pipelines.universal@7327e77c1cc2\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@7327e77c1cc2\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Library\\PackageCache\\com.unity.render-pipelines.universal@7327e77c1cc2\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@7327e77c1cc2\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-04-23T15:37:05.639Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -51,7 +68,8 @@
               "RelativeToolTip": "Assets\\SCripts\\Enemy.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAiwDsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T14:16:44.186Z"
+              "WhenOpened": "2026-04-23T14:16:44.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -63,17 +81,18 @@
               "RelativeToolTip": "Assets\\SCripts\\EnemyPatrol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T14:10:16.794Z"
+              "WhenOpened": "2026-04-23T14:10:16.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MageController.cs",
               "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\MageController.cs",
               "RelativeDocumentMoniker": "Assets\\SCripts\\MageController.cs",
               "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\MageController.cs",
               "RelativeToolTip": "Assets\\SCripts\\MageController.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAiwIEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAiwHsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T13:53:26.086Z",
               "EditorCaption": ""
