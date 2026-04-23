@@ -49,6 +49,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\SCripts\EnemyStompZone.cs" />
+    <Compile Include="Assets\SCripts\EnemyPatrol.cs" />
     <Compile Include="Assets\SCripts\MovingPlatform.cs" />
     <Compile Include="Assets\SCripts\SimpleCameraFollow.cs" />
     <Compile Include="Assets\SCripts\RespawnTrigger.cs" />
@@ -57,10 +59,12 @@
     <Compile Include="Assets\SCripts\Lever.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\SCripts\MageController.cs" />
+    <Compile Include="Assets\SCripts\Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Readme.txt" />
     <None Include="Assets\Shader\Painterly.hlsl" />
+    <None Include="Assets\Blood decal pack\readme.txt" />
     <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
   </ItemGroup>
   <ItemGroup>

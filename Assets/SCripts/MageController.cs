@@ -3,11 +3,14 @@ using UnityEngine.InputSystem;
 
 public class MageController : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 1.5f;
+    [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float jumpHeight = 1.2f;
     [SerializeField] private float gravity = -20f;
     [SerializeField] private Transform cameraTransform;
     [SerializeField] private float raycastDistance = 1.3f;
+
+    [SerializeField] private AudioSource footstepAudioSource;
+    [SerializeField] private AudioSource jumpAudioSource;
 
     private CharacterController controller;
     private InputAction moveAction;
@@ -60,10 +63,32 @@ public class MageController : MonoBehaviour
 
         GetPlatformVelocity();
 
+        bool isMoving = input.magnitude > 0.1f;
+
+        if (isMoving && isGrounded)
+        {
+            if (footstepAudioSource != null && !footstepAudioSource.isPlaying)
+            {
+                footstepAudioSource.Play();
+            }
+        }
+        else
+        {
+            if (footstepAudioSource != null && footstepAudioSource.isPlaying)
+            {
+                footstepAudioSource.Stop();
+            }
+        }
+
         if (jumpAction != null && jumpAction.WasPressedThisFrame() && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
             isJumping = true;
+
+            if (jumpAudioSource != null)
+            {
+                jumpAudioSource.Play();
+            }
         }
 
         Vector3 combinedMovement = characterMovement;
