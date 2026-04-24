@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class MageController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float sprintSpeed = 8f;
     [SerializeField] private float jumpHeight = 1.2f;
     [SerializeField] private float gravity = -20f;
     [SerializeField] private Transform cameraTransform;
@@ -57,6 +58,11 @@ public class MageController : MonoBehaviour
 
         Vector2 input = moveAction.ReadValue<Vector2>();
 
+        bool isMoving = Mathf.Abs(input.x) > 0.1f || Mathf.Abs(input.y) > 0.1f;
+        bool isSprinting = isMoving && Keyboard.current != null && Keyboard.current.leftShiftKey.isPressed;
+
+        float currentSpeed = isSprinting ? sprintSpeed : moveSpeed;
+
         Vector3 camForward = cameraTransform.forward;
         Vector3 camRight = cameraTransform.right;
 
@@ -66,13 +72,11 @@ public class MageController : MonoBehaviour
         camForward.Normalize();
         camRight.Normalize();
 
-        Vector3 characterMovement = (camForward * input.y + camRight * input.x) * moveSpeed * Time.fixedDeltaTime;
+        Vector3 characterMovement = (camForward * input.y + camRight * input.x) * currentSpeed * Time.fixedDeltaTime;
 
         GetPlatformVelocity();
 
-        bool isMoving = input.magnitude > 0.1f;
-
-        UpdateAnimations(isMoving);
+        UpdateAnimations(isMoving, isSprinting);
 
         if (isMoving && isGrounded)
         {
@@ -113,14 +117,15 @@ public class MageController : MonoBehaviour
         controller.Move(velocity * Time.fixedDeltaTime);
     }
 
-    private void UpdateAnimations(bool isMoving)
+    private void UpdateAnimations(bool isMoving, bool isSprinting)
     {
         if (animator == null)
         {
             return;
         }
 
-        animator.SetBool("isWalking", isMoving && isGrounded);
+        animator.SetBool("isWalking", isMoving && isGrounded && !isSprinting);
+        animator.SetBool("isRunning", isMoving && isGrounded && isSprinting);
         animator.SetBool("isJumping", !isGrounded);
     }
 
