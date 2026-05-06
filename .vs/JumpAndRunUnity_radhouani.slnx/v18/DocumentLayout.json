@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\MageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCripts\\MageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\lever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\magecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\magecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\enemystompzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Lever.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\Lever.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\Lever.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\Lever.cs",
+              "RelativeToolTip": "Assets\\SCripts\\Lever.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T13:15:22.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EnemyStompZone.cs",
               "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\EnemyStompZone.cs",
               "RelativeDocumentMoniker": "Assets\\SCripts\\EnemyStompZone.cs",
@@ -42,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\SCripts\\Enemy.cs",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EnemyPatrol.cs",
               "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\EnemyPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\SCripts\\EnemyPatrol.cs",
@@ -66,13 +83,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MageController.cs",
               "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\MageController.cs",
               "RelativeDocumentMoniker": "Assets\\SCripts\\MageController.cs",
               "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\MageController.cs",
               "RelativeToolTip": "Assets\\SCripts\\MageController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAiwJQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAiwMcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T14:31:23.643Z",
               "EditorCaption": ""

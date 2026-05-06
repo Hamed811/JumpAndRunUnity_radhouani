@@ -7,6 +7,9 @@ public class MageController : MonoBehaviour
     [SerializeField] private float sprintSpeed = 8f;
     [SerializeField] private float jumpHeight = 1.2f;
     [SerializeField] private float gravity = -20f;
+
+    [SerializeField] private float rotationSpeed = 12f;
+
     [SerializeField] private Transform cameraTransform;
     [SerializeField] private float raycastDistance = 1.3f;
 
@@ -59,7 +62,11 @@ public class MageController : MonoBehaviour
         Vector2 input = moveAction.ReadValue<Vector2>();
 
         bool isMoving = Mathf.Abs(input.x) > 0.1f || Mathf.Abs(input.y) > 0.1f;
-        bool isSprinting = isMoving && Keyboard.current != null && Keyboard.current.leftShiftKey.isPressed;
+
+        bool isSprinting =
+            isMoving &&
+            Keyboard.current != null &&
+            Keyboard.current.leftShiftKey.isPressed;
 
         float currentSpeed = isSprinting ? sprintSpeed : moveSpeed;
 
@@ -72,12 +79,32 @@ public class MageController : MonoBehaviour
         camForward.Normalize();
         camRight.Normalize();
 
-        Vector3 characterMovement = (camForward * input.y + camRight * input.x) * currentSpeed * Time.fixedDeltaTime;
+        // Bewegungsrichtung relativ zur Kamera
+        Vector3 moveDirection = camForward * input.y + camRight * input.x;
+
+        // Charakter drehen
+        if (moveDirection.sqrMagnitude > 0.01f)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                targetRotation,
+                rotationSpeed * Time.fixedDeltaTime
+            );
+        }
+
+        // Bewegung
+        Vector3 characterMovement =
+            moveDirection.normalized *
+            currentSpeed *
+            Time.fixedDeltaTime;
 
         GetPlatformVelocity();
 
         UpdateAnimations(isMoving, isSprinting);
 
+        // Footsteps
         if (isMoving && isGrounded)
         {
             if (footstepAudioSource != null && !footstepAudioSource.isPlaying)
@@ -93,9 +120,13 @@ public class MageController : MonoBehaviour
             }
         }
 
-        if (jumpAction != null && jumpAction.WasPressedThisFrame() && isGrounded)
+        // Jump
+        if (jumpAction != null &&
+            jumpAction.WasPressedThisFrame() &&
+            isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+
             isJumping = true;
 
             if (jumpAudioSource != null)
@@ -113,7 +144,9 @@ public class MageController : MonoBehaviour
 
         controller.Move(combinedMovement);
 
+        // Gravity
         velocity.y += gravity * Time.fixedDeltaTime;
+
         controller.Move(velocity * Time.fixedDeltaTime);
     }
 
@@ -124,9 +157,20 @@ public class MageController : MonoBehaviour
             return;
         }
 
-        animator.SetBool("isWalking", isMoving && isGrounded && !isSprinting);
-        animator.SetBool("isRunning", isMoving && isGrounded && isSprinting);
-        animator.SetBool("isJumping", !isGrounded);
+        animator.SetBool(
+            "isWalking",
+            isMoving && isGrounded && !isSprinting
+        );
+
+        animator.SetBool(
+            "isRunning",
+            isMoving && isGrounded && isSprinting
+        );
+
+        animator.SetBool(
+            "isJumping",
+            !isGrounded
+        );
     }
 
     private void GetPlatformVelocity()
@@ -134,11 +178,18 @@ public class MageController : MonoBehaviour
         platformVelocity = Vector3.zero;
 
         int platformLayerMask = LayerMask.GetMask("Platforms");
+
         Vector3 rayOrigin = transform.position + Vector3.up * 0.1f;
 
-        if (Physics.Raycast(rayOrigin, Vector3.down, out RaycastHit hit, raycastDistance, platformLayerMask))
+        if (Physics.Raycast(
+            rayOrigin,
+            Vector3.down,
+            out RaycastHit hit,
+            raycastDistance,
+            platformLayerMask))
         {
-            MovingPlatform movingPlatform = hit.collider.GetComponent<MovingPlatform>();
+            MovingPlatform movingPlatform =
+                hit.collider.GetComponent<MovingPlatform>();
 
             if (movingPlatform != null)
             {

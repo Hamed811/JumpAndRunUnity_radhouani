@@ -5,12 +5,18 @@ public class Lever : MonoBehaviour
 {
     [SerializeField] private MovingFence targetFence;
 
+    [Header("Lever Rotation")]
+    [SerializeField] private float activatedYRotation = -171.364f;
+
     private bool playerInRange = false;
     private bool isActivated = false;
 
-    private void FixedUpdate()
+    private void Update()
     {
-        if (!isActivated && playerInRange && Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
+        if (!isActivated &&
+            playerInRange &&
+            Keyboard.current != null &&
+            Keyboard.current.eKey.wasPressedThisFrame)
         {
             ActivateLever();
         }
@@ -35,7 +41,16 @@ public class Lever : MonoBehaviour
     private void ActivateLever()
     {
         isActivated = true;
+
         Debug.Log("Lever activated!");
+
+        Vector3 currentRotation = transform.localEulerAngles;
+
+        transform.localEulerAngles = new Vector3(
+            currentRotation.x,
+            activatedYRotation,
+            currentRotation.z
+        );
 
         if (targetFence != null)
         {
