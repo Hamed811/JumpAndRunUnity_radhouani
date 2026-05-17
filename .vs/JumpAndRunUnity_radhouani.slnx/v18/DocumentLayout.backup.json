@@ -3,20 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\MageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCripts\\MageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\fireballmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fireballmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\enemystompzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemystompzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\fireballspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fireballspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\fireballpatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fireballpatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\LocalizedSign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCripts\\LocalizedSign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\sawmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sawmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\enemydamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemydamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\jewelpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jewelpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\victorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\victorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\coinrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\sawrotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sawrotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\sawtrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sawtrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\coinpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\respawntrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\respawntrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\magecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\magecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\lever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\enemystompzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemystompzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\radho\\downloads\\testunity\\jumpandrununity_radhouani\\assets\\scripts\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +94,208 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FireballSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\FireballSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\FireballSpawner.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\FireballSpawner.cs",
+              "RelativeToolTip": "Assets\\SCripts\\FireballSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T12:19:13.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FireballMove.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\FireballMove.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\FireballMove.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\FireballMove.cs",
+              "RelativeToolTip": "Assets\\SCripts\\FireballMove.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T12:18:35.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FireballPatrol.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\FireballPatrol.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\FireballPatrol.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\FireballPatrol.cs",
+              "RelativeToolTip": "Assets\\SCripts\\FireballPatrol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T12:13:21.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CoinPickup.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\CoinPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\CoinPickup.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\CoinPickup.cs",
+              "RelativeToolTip": "Assets\\SCripts\\CoinPickup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T12:19:55.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CoinManager.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\CoinManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\CoinManager.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\CoinManager.cs",
+              "RelativeToolTip": "Assets\\SCripts\\CoinManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T12:18:56.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\SCripts\\PlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T11:50:11.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocalizedSign.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\LocalizedSign.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\LocalizedSign.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\LocalizedSign.cs",
+              "RelativeToolTip": "Assets\\SCripts\\LocalizedSign.cs",
+              "ViewState": "AgIAAA4AAACA7q6zIXcdwC0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T10:43:04.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyDamage.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\EnemyDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\EnemyDamage.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\EnemyDamage.cs",
+              "RelativeToolTip": "Assets\\SCripts\\EnemyDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:00:13.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JewelPickup.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\JewelPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\JewelPickup.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\JewelPickup.cs",
+              "RelativeToolTip": "Assets\\SCripts\\JewelPickup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T13:41:15.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VictoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\VictoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\VictoryManager.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\VictoryManager.cs",
+              "RelativeToolTip": "Assets\\SCripts\\VictoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T13:38:18.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CoinRotate.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\CoinRotate.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\CoinRotate.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\CoinRotate.cs",
+              "RelativeToolTip": "Assets\\SCripts\\CoinRotate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T13:31:58.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SawRotator.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\SawRotator.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\SawRotator.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\SawRotator.cs",
+              "RelativeToolTip": "Assets\\SCripts\\SawRotator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T13:25:22.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SawTrap.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\SawTrap.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\SawTrap.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\SawTrap.cs",
+              "RelativeToolTip": "Assets\\SCripts\\SawTrap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T12:46:06.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SawMovement.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\SawMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\SawMovement.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\SawMovement.cs",
+              "RelativeToolTip": "Assets\\SCripts\\SawMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:07:25.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RespawnTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\RespawnTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\RespawnTrigger.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\RespawnTrigger.cs",
+              "RelativeToolTip": "Assets\\SCripts\\RespawnTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T11:31:22.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Lever.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\Lever.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\Lever.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\Lever.cs",
+              "RelativeToolTip": "Assets\\SCripts\\Lever.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T13:15:22.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "EnemyStompZone.cs",
               "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\EnemyStompZone.cs",
               "RelativeDocumentMoniker": "Assets\\SCripts\\EnemyStompZone.cs",
@@ -42,19 +307,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\SCripts\\Enemy.cs",
               "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\SCripts\\Enemy.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwDsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T14:16:44.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "EnemyPatrol.cs",
               "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\EnemyPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\SCripts\\EnemyPatrol.cs",
@@ -66,16 +331,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "MageController.cs",
               "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\MageController.cs",
               "RelativeDocumentMoniker": "Assets\\SCripts\\MageController.cs",
               "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\MageController.cs",
               "RelativeToolTip": "Assets\\SCripts\\MageController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAiwJQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T14:31:23.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T14:31:23.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GameOverManager.cs",
+              "DocumentMoniker": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\GameOverManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SCripts\\GameOverManager.cs",
+              "ToolTip": "C:\\Users\\radho\\Downloads\\Testunity\\JumpAndRunUnity_radhouani\\Assets\\SCripts\\GameOverManager.cs",
+              "RelativeToolTip": "Assets\\SCripts\\GameOverManager.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T11:20:28.571Z"
             }
           ]
         }

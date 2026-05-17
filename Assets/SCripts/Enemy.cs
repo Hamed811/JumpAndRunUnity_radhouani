@@ -57,4 +57,10 @@ public class Enemy : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+    public void ResetEnemy()
+    {
+        isDefeated = false;
+        transform.localScale = originalScale;
+        gameObject.SetActive(true);
+    }
 }
